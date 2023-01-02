@@ -223,7 +223,7 @@ ul.slicknav_nav {
   top: 22px;
   position: relative;
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   float: right;
   padding: .438em .625em;
   line-height: 1.125em
