@@ -397,6 +397,10 @@ ul.slicknav_nav {
   z-index: 999;
 }
 
+.mlr-auto{
+  margin-left: auto;
+}
+
 /* .sec-1{
   margin: 60px 0 !important;
 } */
