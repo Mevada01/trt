@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Oranienbaum&display=swap');
+
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -17,8 +20,9 @@ body {
   font-weight: 400;
   line-height: 1.5em;
 }
-header{
-}
+
+header {}
+
 nav {
   position: fixed;
   z-index: 999999;
@@ -138,7 +142,7 @@ i:hover {
 .inner_main_menu ul li ul li:hover a,
 i {
   background: #ddd;
-  color: #262626;
+  color: #be1e2d;
 }
 
 .inner_main_menu ul li ul li:hover ul li a {
@@ -148,7 +152,7 @@ i {
 
 .inner_main_menu ul li ul li ul li a:hover {
   background: #ddd;
-  color: #262626;
+  color: #be1e2d;
 }
 
 .slicknav_menu {
@@ -490,3 +494,100 @@ a.sale-item:hover {
   display: block;
   width: 100%;
 } */
+
+
+
+.handpicked-section {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.handpicked-section h2 {
+  font-family: 'Open Sans', sans-serif !important;
+  margin-bottom: 1em;
+  color: #1e3932;
+  padding-left: 0.35em;
+  font-size: 1.5em;
+}
+
+.sec-3-carding {
+  background-color: #fff;
+  padding: 1em 1.5em;
+  box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+  /* height: 160px; */
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-horizontal {
+  display: flex;
+  /* min-height: 92px; */
+}
+
+.img-square-wrapper img {
+  margin: 0 auto;
+  /* width: 80px;
+  height: 80px; */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1 1 auto;
+}
+
+.veg-img img {
+  width: 16px;
+  height: 16px;
+}
+
+h4.card-title {
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  color: #000;
+}
+
+span.card-subtitle {
+  font-size: 12px;
+  color: #6c757d !important;
+  ;
+  font-family: 'Oranienbaum', serif;
+}
+
+.card-footer {
+  margin: 10px 0;
+}
+
+.left-item h4 {
+  letter-spacing: 1px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+span.round-figure {
+  font-size: 12px;
+}
+
+.personal-btn {
+  width: 96px;
+  height: 32px;
+  padding: 0;
+}
+
+.btn-rounded {
+  border-radius: 30px;
+  box-shadow: 0 4px 15px #a3a3a3ad;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #00754a;
+}
+
+.slide {
+  /* width: 409.333px !important; */
+  margin-right: 26px;
+}

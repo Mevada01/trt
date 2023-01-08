@@ -17,6 +17,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
@@ -117,10 +120,10 @@
             <div class="row">
                 <div class="mx-auto ">
                     <h2 class="py-5 text-center">
-                        Image Gallery
+                        Pick Your Style
                     </h2>
                 </div>
-                <div class="py-5">
+                <div class="py-5 d-flex">
                     <div class="col-md-3">
                         <div class="sale-items" style="width: 238px;">
                             <a href="#" class="sale-item">
@@ -167,11 +170,232 @@
     </section>
 
 
+    <section>
+        <div class="container">
+            <div class="handpicked-section">
+                <div class="col-12">
+                    <h2 style="text-align: center;">Handipiked-Item</h2>
+                    <div class="homeslider responsive py-4 my-5">
+                        <div class="slide ">
+                            <div class="sec-3-carding">
+                                <div class="card-horzontal">
+                                    <div class="img-square-wrapper">
+                                        <img src="assets/imgs/73-1008.jpg"
+                                            alt="">
+                                    </div>
+                                    <!-- <div class="card-body px-3">
+                                        <div class="veg-img">
+                                            <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+                                        </div>
+                                        <h4 class="card-title">Java Chip Frappuccino </h4>
+                                        <span class="card-subtitle">
+                                            TALL(354 ML) .392 kcal
+                                        </span>
+                                    </div> -->
+                                </div>
+                                <div class="card-footer d-flex justify-content-between  ">
+                                    <div class="left-item">
+                                        <h4>
+                                            ₹ 351<span class="round-figure">.75</span>
+                                        </h4>
+                                    </div>
+                                    <div class="right-item">
+                                        <button class="custom-btn btn-green btn-rounded personal-btn">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="sec-3-carding">
+                                <div class="card-horzontal d-flex">
+                                    <div class="img-square-wrapper">
+                                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/105468.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body px-3">
+                                        <div class="veg-img">
+                                            <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+                                        </div>
+                                        <h4 class="card-title">Cold Coffee </h4>
+                                        <span class="card-subtitle">
+                                            TALL(354 ML) .354 kcal
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between  ">
+                                    <div class="left-item">
+                                        <h4>
+                                            ₹ 351<span class="round-figure">.75</span>
+                                        </h4>
+                                    </div>
+                                    <div class="right-item">
+                                        <button class="custom-btn btn-green btn-rounded personal-btn">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="sec-3-carding">
+                                <div class="card-horzontal d-flex">
+                                    <div class="img-square-wrapper">
+                                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/105000.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body px-3">
+                                        <div class="veg-img">
+                                            <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+                                        </div>
+                                        <h4 class="card-title">Vanilla Sweet Cream Cold Brew </h4>
+                                        <span class="card-subtitle">
+                                            TALL(354 ML) .63 kcal
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between  ">
+                                    <div class="left-item">
+                                        <h4>
+                                            ₹ 383<span class="round-figure">.25</span>
+                                        </h4>
+                                    </div>
+                                    <div class="right-item">
+                                        <button class="custom-btn btn-green btn-rounded personal-btn">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="sec-3-carding">
+                                <div class="card-horzontal d-flex">
+                                    <div class="img-square-wrapper">
+                                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/100447.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body px-3">
+                                        <div class="veg-img">
+                                            <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+                                        </div>
+                                        <h4 class="card-title">Signature Hot Chocolate </h4>
+                                        <span class="card-subtitle">
+                                            SHORT(237 ML) .284 kcal
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between  ">
+                                    <div class="left-item">
+                                        <h4>
+                                            ₹ 278<span class="round-figure">.25</span>
+                                        </h4>
+                                    </div>
+                                    <div class="right-item">
+                                        <button class="custom-btn btn-green btn-rounded personal-btn">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="sec-3-carding">
+                                <div class="card-horzontal d-flex">
+                                    <div class="img-square-wrapper">
+                                        <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/100377.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body px-3">
+                                        <div class="veg-img">
+                                            <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+                                        </div>
+                                        <h4 class="card-title">Caffe Latte </h4>
+                                        <span class="card-subtitle">
+                                            SHORT(237 ML) .104 kcal
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between  ">
+                                    <div class="left-item">
+                                        <h4>
+                                            ₹ 273<span class="round-figure">.00</span>
+                                        </h4>
+                                    </div>
+                                    <div class="right-item">
+                                        <button class="custom-btn btn-green btn-rounded personal-btn">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="assets/js/jquery_index.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#menu').slicknav();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('.homeslider').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                autoplay: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            autoplay: true,
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            infinite: false,
+                            dots: false,
+                            // arrows:false
+                        }
+                    },
+                    {
+                        breakpoint: 800,
+                        settings: {
+
+                            autoplay: true,
+                            // arrows:false,
+                            infinite: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            autoplay: true,
+                            arrows: false,
+                            infinite: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            infinite: false,
+                            autoplay: true,
+                            arrows: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+
         });
     </script>
 </body>
