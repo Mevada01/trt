@@ -23,30 +23,30 @@
     line-height: 0;
 
     position: absolute;
-    top:60%;
+    top: 50%;
 
     display: block;
-    z-index: 4;
+
     width: 20px;
     height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    margin-top: 0px;
+
     cursor: pointer;
 
-    color: green;
+    color: transparent;
     border: none;
     outline: none;
-    /* background: #fff; */
+    background: transparent;
 }
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus
 {
-    color: #1e3932 !important;
+    color: transparent;
     outline: none;
     background: transparent;
 }
@@ -66,14 +66,13 @@
 .slick-prev:before,
 .slick-next:before
 {
-    
-    font-family: 'Font Awesome 5 Free';
-    font-size: 30px;
+    font-family: 'slick';
+    font-size: 20px;
     line-height: 1;
-    border-radius: 50%;
+
     opacity: .75;
-    color: green;
-    background-color: #fff;
+    color: white;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -98,7 +97,7 @@
 
 .slick-next
 {
-    right: 15px;
+    right: -25px;
 }
 [dir='rtl'] .slick-next
 {
@@ -125,7 +124,7 @@
     position: absolute;
     bottom: -25px;
 
-    display: none;
+    display: block;
 
     width: 100%;
     padding: 0;
@@ -153,7 +152,7 @@
     font-size: 0;
     line-height: 0;
 
-    display: none;
+    display: block;
 
     width: 20px;
     height: 20px;
