@@ -530,6 +530,8 @@ a.sale-item:hover {
   height: 80px; */
   border-radius: 8px;
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .card-body {
